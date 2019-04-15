@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background:url(../img/bg.jpg) repeat-x #c0c0c0;
+	font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+}
+.content
+{
+	height:auto;
+	overflow:hidden;
+	width:940px;
+	background:white;
+	margin:auto;
+}
+header
+{
+	height:150px;
+	weidth:100%
+	float:left;
+	border-bottom:10px solid lightgray;
+}
+
+.text
+{
+	float:right;
+	padding-top:20px;
+	padding-right:20px;
+	text-align:right
+}
+ul
+{
+	list-style:none;
+}
+ul li
+{
+	float:left;
+	padding-top:20px;
+	font-size:18px;
+}
+ul li a
+{
+	text-decoration:none;
+	border-right:1px solid white; 
+	background:#064570;
+	color:white;
+	padding: 5px 10px;
+	
+
+	
+}
+.active a
+{
+	background:#D7D7D7;
+	color:black;
+}
+.item
+{
+	padding:20px;
+	height:auto;
+	overflow:hidden;
+}
+.litem
+{
+	width:70%;
+	border-right:1px dotted black;
+	text-align:justify;
+	float:left;
+	padding-right:10px;
+}
+.ritem
+{
+	width:25%;
+	float:right;
+	padding-right:20px
+}
+h3
+{
+	color: #064570;
+	text-shadow: 2px 2px 2px #034643 ;
+}
+footer
+{
+	background: #044470;
+	height: 26px;
+}
+
+
+
